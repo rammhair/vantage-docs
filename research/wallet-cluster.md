@@ -35,9 +35,11 @@ In **Pro** mode a **price chart** appears with a draggable **window** (two handl
 * The result shows the applied **Analysis window** so it's explicit.
 
 {% hint style="success" %}
-**End-date holdings snapshot.** When you set a date range, holdings are read at the **window's end date**
-(historical balances at that block), shown as *"holdings snapshot @ {date}"* — so you see who held what
-**at the end of your chosen period**, not just today.
+**Supply change over the window (start → end).** When you set a date range, each cluster's share of supply
+is snapshotted at **both** the start date **and** the end date and shown as a change — e.g. **`12% → 45% ▲`**
+(green = the cluster *accumulated*, red ▼ = it *distributed*). The overall *"Clustered supply over window"*
+row shows the same for all connected wallets combined. This reveals whether the cluster was **building or
+dumping** a position over the period — not just what it holds today.
 {% endhint %}
 
 ## Reading the result

@@ -5,15 +5,19 @@ engine — not a client-side approximation.
 
 ## How to run it
 
-1. Open a token in the [Token Workspace](token-workspace.md) → **Forensics** tab (the contract is
-   pre-filled).
-2. Press **Scan**.
-3. Wait for the scan to complete (a full Pro scan is an async job — you'll see a progress bar; ~1–3 min
-   for deep scans).
+Deep scans take longer than other scans (~1–3 min for reliable, server-grade results), so **every deep
+scan runs in the background** — you're never stuck waiting on a spinner.
+
+1. Open a token's **Forensics** tab (the contract is pre-filled) and press **Scan** — or paste any
+   contract into the Deep Scan box. You instantly get a **preview** while the full scan is queued.
+2. Track it in the public **Deep Scan queue** below the scanner, which has two tabs:
+   * **On-progress** — every token being scanned right now, each with a live **% progress** bar.
+   * **Complete** — finished scans (verdict · score · top-10 %). **Click any row to open its full report.**
+3. Results are **public and cached server-side** — anyone can open a completed scan without re-running it.
 
 {% hint style="info" %}
-You can also paste any contract directly into the Deep Scan box, or open it straight from a
-[Degen Lab](../discover/degen-lab.md) result via **🛰️ Full Forensics**.
+You can also open a scan straight from a [Degen Lab](../discover/degen-lab.md) result via
+**🛰️ Full Forensics**. Solana tokens still scan inline (the server engine is EVM-only).
 {% endhint %}
 
 ## What it checks

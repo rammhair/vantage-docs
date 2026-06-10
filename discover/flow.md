@@ -18,6 +18,8 @@ moving**:
 * Browse the **Monitored Transfers** feed for large moves.
 * The **accumulation / distribution** read is aggregated **per ticker** — sum of value for the same token
   — so you see the net bias, not just individual transfers.
+* **Filter by token** with the searchable **Token** box — start typing a symbol to jump to it, or open
+  the list to browse every monitored token.
 * Use the **PRO lookback** dropdown (45 / 60 / 90 days) to widen the transfer-history window.
 * **Click a row's token** to open it in the [Token Workspace](../research/token-workspace.md); the
   **On-Chain** tab there is the same view scoped to a single token.

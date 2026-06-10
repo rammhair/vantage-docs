@@ -31,6 +31,32 @@ Uniform assumptions across every trade:
 performance does not guarantee future results, and is not financial advice.
 {% endhint %}
 
+## Broadcast signals to your Telegram
+
+The **📣 Broadcast to Telegram** card lets you mirror every live signal into your own Telegram channels and
+groups — the same entries, take-profits and stop-losses, the moment they fire on the site.
+
+1. Tap **➕ Broadcast to a Group** or **➕ Broadcast to a Channel** — this opens Telegram and adds the
+   **@smartflow111_bot** to your chat. Make it an **admin** (a channel needs the *post messages* right).
+2. Back on the site, **link the chat**: paste a public **@username**, or a private chat's numeric
+   **`-100…`** id (add the bot, then forward any message to **@getidsbot** to get the id), and press
+   **Link**. You'll get a confirmation message in that chat.
+3. From then on, every signal broadcasts there automatically. The card shows **how many channels/groups
+   are linked**, and you can unlink any of them.
+
+What gets sent:
+
+```
+🎯 ENTRY  MAGMAUSDT · LONG @ 0.432 · TP +30% / SL −30%
+🟢 TAKE PROFIT  MAGMAUSDT · +30.0% (+$1,500)
+🔴 STOP LOSS  XYZUSDT · −15.0% (−$750)
+```
+
+{% hint style="info" %}
+A Telegram bot can only post to a chat **after** it's been added there, and a **private** group/channel
+needs the numeric `-100…` id rather than an @username. Sign in (Google or wallet) to manage your links.
+{% endhint %}
+
 ---
 
 **Next:** [Private Bookmarks →](bookmarks.md)
